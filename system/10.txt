@@ -1,9 +1,0 @@
-lsblk       //don't know which is better
-
-or
-
-sudo fdisk -l  //probably this is better
-
-or 
-
-sudo parted -l

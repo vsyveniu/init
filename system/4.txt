@@ -1,3 +1,0 @@
-'who -b'  'last reboot'
-
-'uptime'  - this is correct most likely

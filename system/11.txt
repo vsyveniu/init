@@ -1,3 +1,0 @@
-df
-
-df -h  // print in readable format

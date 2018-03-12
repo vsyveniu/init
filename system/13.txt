@@ -1,7 +1,0 @@
-top 
-
-
-or
-
-
-ps aux
