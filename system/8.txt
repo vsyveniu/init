@@ -1,0 +1,17 @@
+usr/etc/ssh/ssh_host_rsa_key  //not sure
+
+~/.shh/authorized_keys   //this is must be. To get it need to generate pair of keys via
+
+command  'ssh-keygen -t rsa -b 2048'. If do not change settings the program will save keys to 
+
+catalog .shh (which is hidden,use 'ls -a' to see it in home directory) There will be two files :
+
+id_rsa - secret key, and id_rsa.pub - public key. The secret key must be copied to safe place, and the public key must be copied using command  cat id_rsa.pub >> ~/.shh/authorized_keys.  To configure authorzation via this key edit file   /etc/shh/sshd_config. Set the current settings like showed below :
+
+PubkeyAuthentication yes
+AuthorizedKeysFile %h/.ssh/authorized_keys
+RhostsRSAAuthentication no
+HostbasedAuthentication no
+PermitEmptyPasswords no
+
+p.s i don't find some of this parameters in my system

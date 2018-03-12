@@ -1,0 +1,8 @@
+sudo kill $!   // this is the most correct i think
+
+
+jobs -l to look up the background process  sudo kill 'number of process'
+
+or
+
+sudo pkill 'name of process'

@@ -1,0 +1,4 @@
+sudo du -h /var/*
+
+
+sudo du -s -h /var/* to print only size and dir name

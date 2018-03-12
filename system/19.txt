@@ -1,0 +1,7 @@
+sudo iptables --policy INPUT DROP
+sudo iptables -A INPUT -j DROP ///this may be the best
+
+or 
+
+sudo iptables --policy INPUT REJECT
+sudo iptables --A INPUT -j  REJECT

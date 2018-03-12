@@ -1,0 +1,9 @@
+cat usr/var/run/sshd.pid
+
+or
+
+pgrep sshd    //this is the best i guess
+
+or
+
+ps ax | grep sshd
