@@ -1,1 +1,3 @@
-sudo tail -f /var/log/syslog &
+sudo tail -f /var/log/syslog
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
