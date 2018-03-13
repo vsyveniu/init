@@ -1,7 +1,7 @@
 
 #this script must run under root or sudo(user must be in sudoers list)because cron don't give permisiion for users to change crontab file
 
-echo 'apt-get update >> /var/log/update_script.log && apt-get upgrade >> /var/log/update_script.log' >> ~/updatescript.sh &&
+echo 'apt-get update >> /var/log/update_script.log && apt-get upgrade >> /var/log/update_script.log' >> ~/updatescript.sh
 
 #command below will add task for root
 
