@@ -1,2 +1,1 @@
-netstat -nr
-#netstat -nr |  awk '/default/ {if (index($6, "en") > 0 ) {print $2}}'
+netstat -nr |  awk '/default/ {if (index($6, "en") > 0 ) {print $2}}'

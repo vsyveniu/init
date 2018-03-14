@@ -2,14 +2,14 @@ network
 01 OK 
 02 OK 
 03 OK 
-04 KO need to check it up what is wrong, must have a output like 42:42:42:42 or something
+04 OK
 05 OK 
 06 OK 
 07 OK 
 08 OK 
 09 OK 
 10 OK 
-11 KO the first entry
+11 OK read about NAT server
 12 OK 
 13 OK 
 14 OK 
@@ -25,19 +25,19 @@ system
 04 OK 
 05 OK
 06 OK
-07 KO must show more detailed shit
+07 OK
 08 OK chek it one more time
-09 KO don't know why
+09 OK
 10 OK
 11 OK 
 12 OK
 13 OK 
-14 KO left just  sudo tail -f /var/log/syslog
-15 KO must show [] Terminated pid  sudo pkill tail
+14 OK
+15 KO must show [] Terminated pid  sudo pkill tail find the right
 16 OK 
 17 OK
-18 KO sudo iptables -A INPUT -p -tcp -s 10.0.0.0/8 -j ACCEPT  delete -j -A ? cut comments
-19 KO sudo iptables -A INPUT -j DROP delete -j -A ? DROP is wrong?
+18 KO sudo iptables -I INPUT -p -tcp -s 10.0.0.0/8 -j ACCEPT need to do it accept all
+19 KO sudo iptables -A INPUT -j DROP
 
 ~6 KO
 
