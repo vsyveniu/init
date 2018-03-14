@@ -1,7 +1,1 @@
-sudo iptables -I INPUT -j DROP  -- good
-#or
-#sudo iptables --policy INPUT DROP
-#sudo iptables -p INPUT DROP
-#or 
-#sudo iptables --policy INPUT REJECT
-#sudo iptables --A INPUT -j  REJECT
+sudo iptables -P INPUT DROP

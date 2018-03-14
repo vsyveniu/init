@@ -1,0 +1,52 @@
+network
+01 OK OK
+02 OK OK
+03 OK OK
+04 OK OK
+05 OK OK
+06 OK OK
+07 OK OK
+08 OK OK
+09 OK OK
+10 OK OK
+11 OK OK
+12 OK OK
+13 OK OK
+14 OK OK
+15 OK OK
+16 OK OK
+
+OK
+
+system
+01 OK OK
+02 OK OK
+03 OK OK
+04 OK OK
+05 OK OK
+05 OK OK
+06 OK OK /etc/init.d/ssh restart
+07 OK OK
+08 OK OK  and. /usr/etc/ssh/ssh_host_rsa_key
+09 OK OK
+10 OK OK
+11 OK OK
+12 OK OK
+13 OK OK  or ps aux
+14 OK OK
+15 OK OK 
+16 OK OK
+17 OK OK
+18 OK OK
+19 OK OK
+
+OK
+
+scripts
+01 OK OK
+02 OK OK
+03 OK OK 
+04 OK OK
+05 OK OK
+
+OK
