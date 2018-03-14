@@ -1,3 +1,3 @@
-'etc/os-release' or 'etc/lsb-release'  //second is probably for older versions then my
-
-/etc/debian_version  // display only number
+/etc/os-release
+/etc/lsb-release
+/etc/debian_version

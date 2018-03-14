@@ -1,0 +1,2 @@
+Amazon Technologies Inc.
+#use command whois 13.32.118.117 | grep "OrgName" | cut -f2 -d ":"

@@ -1,4 +1,0 @@
-ps aux
-
-#or
-#top

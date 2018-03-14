@@ -15,3 +15,9 @@
 
 #print user with current effective id
 #whoami 
+
+netstat -a
+netstat -anp --tcp --udp
+netstat -s
+ss -l
+iftop

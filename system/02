@@ -1,5 +1,2 @@
-'hostname [new name]'  //you must be a root user before using command  or have a sudo rights on user
-
-to become a root user: 	   su -
-or add user to sudoers list
+hostname new_name
 	
